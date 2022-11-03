@@ -1,0 +1,24 @@
+{
+  "name": "melhor-pedido",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "autoprefixer": "^10.4.12",
+    "sass": "^1.55.0",
+    "vue": "^3.2.41"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^3.2.0",
+    "vite": "^3.2.0"
+  },
+  "description": "- Projeto iniciado com Vite + Vuejs 3.\r - Para rodar o projeto --> yarn dev <--\r - Para compilar Sass --> sass --watch src/style/style.scss:src/style/style.css <--",
+  "main": "vite.config.js",
+  "author": "",
+  "license": "ISC"
+}

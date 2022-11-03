@@ -1,0 +1,3 @@
+- Projeto iniciado com Vite + Vuejs 3.
+- Para rodar o projeto --> yarn dev <--
+- Para compilar Sass --> sass --watch src/style/style.scss:src/style/style.css <--
