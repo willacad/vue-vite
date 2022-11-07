@@ -1,5 +1,9 @@
 <template>
-  <div class="footer"></div>
+  <div class="footer">
+    <div class="contact">
+      <h1 class="contatct__title">Contato: p.</h1>
+    </div>
+  </div>
 </template>
 
 <script>
@@ -15,5 +19,6 @@ export default {
   background-color: $dominant-color;
   width: 100%;
   height: 135px;
+  bottom: 0;
 }
 </style>

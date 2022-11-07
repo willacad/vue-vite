@@ -1,7 +1,9 @@
 <template>
-  <Navbar />
-  <Home />
-  <Footer />
+  <div>
+    <Navbar />
+    <router-view> </router-view>
+    <Footer />
+  </div>
 </template>
 
 <script>
@@ -34,16 +36,21 @@ export default {
 }
 
 .content {
-  min-height: 350px;
+  background-image: url(./assets/image/industria.jpg);
+  background-position: center bottom;
+  background-size: cover;
+  min-height: 600px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-h1 {
-  text-align: center;
-  font-size: 45px;
-  color: $title-color;
-  margin-bottom: 30px;
+.main-contain {
+  background-color: #00000071;
+  height: 600px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 </style>
