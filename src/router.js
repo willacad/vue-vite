@@ -2,8 +2,10 @@ import { createRouter, createWebHistory } from 'vue-router';
 
 import Home from "./views/Home.vue";
 import LoginRequester from "./views/LoginRequester.vue";
-import NewUser from "./views/NewUser.vue"
-import Question from "./views/OptionPage.vue"
+import NewCompany from "./views/NewCompany.vue"
+import OptionPage from "./views/OptionPage.vue"
+import NewAdm from "./views/NewAdm.vue"
+import DemandView from "./views/DemandView.vue"
 
 const routes = [
   {
@@ -17,10 +19,31 @@ const routes = [
     component: LoginRequester,
   },
   {
-    path: '/NewUser',
-    name: 'newuser',
-    component: NewUser,
+    path: '/NewCompany',
+    name: 'newcompany',
+    component: NewCompany,
   },
+
+  {
+    path: '/OptionPage',
+    name: 'optionpage',
+    component: OptionPage,
+  },
+
+  {
+    path: '/NewAdm',
+    name: 'newadm',
+    component: NewAdm,
+  },
+
+  {
+    path: '/DemandView',
+    name: 'demandview',
+    component: DemandView,
+  },
+
+
+
 ];
 
 const router = createRouter({

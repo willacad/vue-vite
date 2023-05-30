@@ -1,17 +1,18 @@
 <template>
   <div class="content">
     <section class="main-contain">
-      <FormSignUp />
+      <CompanySignUp />
     </section>
   </div>
 </template>
 
 <script>
-import FormSignUp from "../components/FormSiginUp.vue";
+import CompanySignUp from "/src/components/CompanySiginUp.vue";
+
 export default {
-  name: "NewUser",
+  name: "NewCompany",
   components: {
-    FormSignUp,
+    CompanySignUp,
   },
 };
 </script>

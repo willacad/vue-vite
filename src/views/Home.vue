@@ -8,8 +8,8 @@
           <br />Foque na sua necessidade ao invés de negociação de preços.<br />
           Com a nossa plataforma, achamos o melhor preço para você.
         </p>
-        <router-link class="btn__register" to="/OptionPage"
-          >Cadastre-se</router-link
+        <router-link class="btn__register" to="/DemandView"
+          >TEST TABLE</router-link
         >
       </div>
     </section>

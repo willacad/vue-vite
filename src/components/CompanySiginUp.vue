@@ -11,13 +11,13 @@
         placeholder="Nome do responsável"
       />
       <input type="email" class="input-geral" placeholder="E-mail" />
-      <input type="fone" class="input-geral" placeholder="Telefone" />
+      <input type="phone" class="input-geral" placeholder="Telefone" />
       <input type="text" class="input-geral" placeholder="Endereço" />
       <input type="password" class="input-geral" placeholder="Senha" />
       <input
         type="password"
         class="input-geral"
-        placeholder="Confirmar Senha"
+        placeholder="Digite novamente a senha"
       />
     </div>
     <button class="sign__btn" type="submit">Cadastrar</button>
@@ -26,7 +26,7 @@
 
 <script>
 export default {
-  name: "FormSignUp",
+  name: "CompanySignUp",
 };
 </script>
 

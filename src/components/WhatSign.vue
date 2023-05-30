@@ -1,8 +1,8 @@
 <template>
   <div class="box">
     <h1 class="box__title">Cadastro de :</h1>
-    <router-link class="box__btn" to="/NewUser">Empresa</router-link>
-    <router-link class="box__btn" to="/">Administrador</router-link>
+    <router-link class="box__btn" to="/NewCompany">Empresa</router-link>
+    <router-link class="box__btn" to="/NewAdm">Administrador</router-link>
   </div>
 </template>
 
