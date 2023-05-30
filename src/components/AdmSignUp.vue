@@ -11,7 +11,7 @@
     <input
       type="text"
       class="input-geral"
-      placeholder="Digite novamente a nenha"
+      placeholder="Digite novamente a senha"
     />
     <button class="sign__btn" type="submit">Cadastrar</button>
   </div>

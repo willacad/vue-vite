@@ -2,7 +2,7 @@
   <div class="content">
     <section class="main-contain">
       <div class="description">
-        <h1 class="description__title">Melhor pedido</h1>
+        <h1 class="description__title">Empresa x</h1>
         <p class="description__text">
           Nossa plataforma foi idealizada para facilitar a vida da sua empresa.
           <br />Foque na sua necessidade ao invés de negociação de preços.<br />
